@@ -1,0 +1,17 @@
+__info__
+
+.env
+
+.vscode
+*.code-workspace
+
+examples/media/demo/*
+!examples/media/demo/*.avif
+examples/media/for_display/src
+examples/packages/VSPPaletteFonts/Fonts/*
+!examples/packages/VSPPaletteFonts/Fonts/.gitkeep
+**/make.ini
+
+**/.venv
+**/__pycache__
+streamer/dirme.bat

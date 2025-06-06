@@ -1,0 +1,425 @@
+Begin Map
+Begin Actor Class=LevelInfo Name=LevelInfo0
+     TimeSeconds=35.342880
+     Title=""
+     Summary=LevelSummary'MyLevel.LevelSummary'
+     bHighDetailMode=False
+     NavigationPointList=PlayerStart'MyLevel.PlayerStart0'
+     AIProfile(0)=43283235
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="LevelInfo"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+     StandingCount=6
+     Location=(X=32.000000,Y=32.000000,Z=32.000000)
+     Name="LevelInfo0"
+End Actor
+Begin Actor Class=Brush Name=Brush8
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Group="Sheet"
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+     Location=(X=-80.000000,Y=292.000000,Z=248.000000)
+     Rotation=(Pitch=16384)
+    Begin Brush Name=Model12
+       Begin PolyList
+          Begin Polygon Item=Sheet Flags=264
+             Origin   +00016.000000,+00016.000000,+00000.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU -00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00001.000000,+00000.000000
+             Vertex   +00016.000000,+00016.000000,+00000.000000
+             Vertex   +00016.000000,-00016.000000,+00000.000000
+             Vertex   -00016.000000,-00016.000000,+00000.000000
+             Vertex   -00016.000000,+00016.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model12'
+     Name="Brush8"
+End Actor
+Begin Actor Class=Brush Name=Brush1
+     CsgOper=CSG_Subtract
+     MainScale=(Scale=(X=2.617833,Y=2.990043,Z=1.557122),SheerAxis=SHEER_ZX)
+     PostScale=(SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-157.000000,Y=32.000000,Z=-32.000000)
+    Begin Brush Name=Model2
+       Begin PolyList
+          Begin Polygon Item=OUTSIDE Texture=inxpal Flags=524288
+             Origin   -00128.000000,-00128.000000,+00128.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00000.000000,+00001.000000,-00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00128.000000,-00128.000000,+00128.000000
+             Vertex   +00128.000000,-00128.000000,+00128.000000
+             Vertex   +00128.000000,+00128.000000,+00128.000000
+             Vertex   -00128.000000,+00128.000000,+00128.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=inxpal Flags=524288
+             Origin   -00128.000000,+00128.000000,-00128.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU -00000.000000,-00001.000000,-00000.000000
+             TextureV -00001.000000,+00000.000000,+00000.000000
+             Vertex   -00128.000000,+00128.000000,-00128.000000
+             Vertex   +00128.000000,+00128.000000,-00128.000000
+             Vertex   +00128.000000,-00128.000000,-00128.000000
+             Vertex   -00128.000000,-00128.000000,-00128.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=inxpal Flags=524288
+             Origin   -00128.000000,+00128.000000,-00128.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00001.000000,-00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00128.000000,+00128.000000,-00128.000000
+             Vertex   -00128.000000,+00128.000000,+00128.000000
+             Vertex   +00128.000000,+00128.000000,+00128.000000
+             Vertex   +00128.000000,+00128.000000,-00128.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=inxpal Flags=524288
+             Origin   +00128.000000,-00128.000000,-00128.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00001.000000,-00000.000000,-00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00128.000000,-00128.000000,-00128.000000
+             Vertex   +00128.000000,-00128.000000,+00128.000000
+             Vertex   -00128.000000,-00128.000000,+00128.000000
+             Vertex   -00128.000000,-00128.000000,-00128.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=inxpal Flags=524288
+             Origin   +00128.000000,+00128.000000,-00128.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   +00128.000000,+00128.000000,-00128.000000
+             Vertex   +00128.000000,+00128.000000,+00128.000000
+             Vertex   +00128.000000,-00128.000000,+00128.000000
+             Vertex   +00128.000000,-00128.000000,-00128.000000
+          End Polygon
+          Begin Polygon Item=OUTSIDE Texture=inxpal Flags=524288
+             Origin   -00128.000000,-00128.000000,-00128.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00128.000000,-00128.000000,-00128.000000
+             Vertex   -00128.000000,-00128.000000,+00128.000000
+             Vertex   -00128.000000,+00128.000000,+00128.000000
+             Vertex   -00128.000000,+00128.000000,-00128.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model2'
+     Name="Brush1"
+End Actor
+Begin Actor Class=Light Name=Light0
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Light"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-159.387238,Y=44.166733,Z=-45.438446)
+     OldLocation=(X=105.136353,Y=57.577530,Z=-242.438446)
+     LightEffect=LE_Cylinder
+     LightBrightness=26
+     LightRadius=28
+     Name="Light0"
+End Actor
+Begin Actor Class=PlayerStart Name=PlayerStart0
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="PlayerStart"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-366.059265,Y=35.039452,Z=-194.440186)
+     OldLocation=(X=-393.517883,Y=-56.389343,Z=-226.440186)
+     Name="PlayerStart0"
+End Actor
+Begin Actor Class=VSPDisplayManager Name=VSPDisplayManager0
+     bDebug=True
+     wallGroup="group1"
+     scrTex=ScriptedTexture'VSPScrTexs.stex_1'
+     bgTex=ScriptedTexture'VSPScrTexs.stex_1_469e'
+     palFont=Font'VSPPaletteFonts.sp_palette_font_color_1'
+     palTex=Texture'VSPPaletteFonts.sp_palette_tex_color_1'
+     displayClass=Class'VSP469eFix.VSPDisplay469e'
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Display1"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-29.500551,Y=-193.266418,Z=-151.625809)
+     OldLocation=(X=241.633240,Y=58.304794,Z=-50.240852)
+     Name="VSPDisplayManager0"
+End Actor
+Begin Actor Class=VSPDisplayManager Name=VSPDisplayManager1
+     bDebug=True
+     wallGroup="group2"
+     scrTex=ScriptedTexture'VSPScrTexs.stex_2'
+     palFont=Font'VSPPaletteFonts.sp_palette_font_color_1'
+     palTex=Texture'VSPPaletteFonts.sp_palette_tex_color_1'
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="VSPDisplayManager"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-27.895788,Y=11.733582,Z=-145.625778)
+     OldLocation=(X=-105.908173,Y=-69.266411,Z=-167.240845)
+     Name="VSPDisplayManager1"
+End Actor
+Begin Actor Class=Trigger Name=Trigger1
+     Message="GROUP: group1         Background replaced when drawing (using a workaround to prevent flickering on 469e)"
+     bHidden=False
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Trigger"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-129.000000,Y=-180.000000,Z=-194.899994)
+     OldLocation=(X=-58.000000,Y=-138.000000,Z=-194.899994)
+     Texture=Texture'UnrealShare.Icons.I_Tran'
+     Name="Trigger1"
+End Actor
+Begin Actor Class=Trigger Name=Trigger0
+     Message="GROUP: group2         Transparent background"
+     bHidden=False
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Trigger"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-127.000000,Y=17.000000,Z=-190.899994)
+     OldLocation=(X=-58.000000,Y=-138.000000,Z=-194.899994)
+     Texture=Texture'UnrealShare.Icons.I_Tran'
+     Name="Trigger0"
+End Actor
+Begin Actor Class=VSPDisplayManager Name=VSPDisplayManager2
+     bDebug=True
+     wallGroup="group3"
+     scrTex=ScriptedTexture'VSPScrTexs.stex_3_1'
+     palFont=Font'VSPPaletteFonts.sp_palette_font_color_1'
+     palTex=Texture'VSPPaletteFonts.sp_palette_tex_color_1'
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="VSPDisplayManager"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-40.000000,Y=251.000000,Z=-64.000000)
+     OldLocation=(X=-104.908173,Y=-0.266418,Z=-167.240845)
+     Name="VSPDisplayManager2"
+End Actor
+Begin Actor Class=Trigger Name=Trigger2
+     Message="GROUP: group3         Multi-screen (with gaps to make the borders visible), transparent background"
+     bHidden=False
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Trigger"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-112.000000,Y=285.000000,Z=-190.899994)
+     OldLocation=(X=-112.000000,Y=31.000000,Z=-190.899994)
+     Texture=Texture'UnrealShare.Icons.I_Tran'
+     Name="Trigger2"
+End Actor
+Begin Actor Class=Brush Name=Brush22
+     CsgOper=CSG_Add
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=1,ZoneNumber=1)
+     Location=(Y=-201.000000,Z=-154.000000)
+     Rotation=(Pitch=16384)
+    Begin Brush Name=Model25
+       Begin PolyList
+          Begin Polygon Item=Sheet Texture=stex_1 Flags=4196618
+             Origin   +00063.999996,-00063.999992,-00000.000001
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-32 V=32
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,-00000.000000
+             Vertex   +00032.000000,+00032.000000,+00000.000000
+             Vertex   +00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,+00032.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model25'
+     Name="Brush22"
+End Actor
+Begin Actor Class=Brush Name=Brush23
+     CsgOper=CSG_Add
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=1,ZoneNumber=1)
+     Location=(X=-0.000005,Y=72.339676,Z=-97.660324)
+     Rotation=(Pitch=16384)
+     OldLocation=(X=2.000000,Y=-294.000000,Z=-104.000000)
+    Begin Brush Name=Model26
+       Begin PolyList
+          Begin Polygon Item=Sheet Texture=stex_2 Flags=4196618
+             Origin   +00063.999996,-00063.999992,-00000.000001
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-32 V=32
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,-00000.000000
+             Vertex   +00032.000000,+00032.000000,+00000.000000
+             Vertex   +00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,+00032.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model26'
+     PrePivot=(X=31.999996,Y=31.999996,Z=0.000000)
+     Name="Brush23"
+End Actor
+Begin Actor Class=Brush Name=Brush6
+     CsgOper=CSG_Add
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=6,ZoneNumber=1)
+     Location=(X=15.000008,Y=217.000000,Z=-31.000000)
+     Rotation=(Pitch=16384,Yaw=-1024)
+     OldLocation=(X=2.000000,Y=14.000000,Z=-104.000000)
+    Begin Brush Name=Model11
+       Begin PolyList
+          Begin Polygon Item=Sheet Texture=stex_3_1 Flags=4196618
+             Origin   +00063.999996,-00063.999992,-00000.000001
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-32 V=32
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,-00000.000000
+             Vertex   +00032.000000,+00032.000000,+00000.000000
+             Vertex   +00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,+00032.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model11'
+     Name="Brush6"
+End Actor
+Begin Actor Class=Brush Name=Brush11
+     CsgOper=CSG_Add
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=4,ZoneNumber=1)
+     Location=(X=-0.000000,Y=346.339691,Z=-31.660320)
+     Rotation=(Pitch=17408,Yaw=2048)
+     OldLocation=(X=234.000000,Y=170.000000,Z=4.000000)
+    Begin Brush Name=Model17
+       Begin PolyList
+          Begin Polygon Item=Sheet Texture=stex_3_2 Flags=4196618
+             Origin   +00063.999996,-00063.999992,-00000.000001
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-32 V=32
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,-00000.000000
+             Vertex   +00032.000000,+00032.000000,+00000.000000
+             Vertex   +00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,+00032.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model17'
+     PrePivot=(X=0.000002)
+     Name="Brush11"
+End Actor
+Begin Actor Class=Brush Name=Brush12
+     CsgOper=CSG_Add
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=2,ZoneNumber=1)
+     Location=(X=-4.000000,Y=225.000000,Z=-158.000000)
+     Rotation=(Pitch=16384,Yaw=1024)
+     OldLocation=(X=234.000000,Y=170.000000,Z=4.000000)
+    Begin Brush Name=Model18
+       Begin PolyList
+          Begin Polygon Item=Sheet Texture=stex_3_3 Flags=4196618
+             Origin   +00063.999996,-00063.999992,-00000.000001
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-32 V=32
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,-00000.000000
+             Vertex   +00032.000000,+00032.000000,+00000.000000
+             Vertex   +00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,+00032.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model18'
+     Name="Brush12"
+End Actor
+Begin Actor Class=Brush Name=Brush7
+     CsgOper=CSG_Add
+     MainScale=(Scale=(X=3.521230,Y=3.521230,Z=3.521230),SheerAxis=SHEER_ZX)
+     PostScale=(Scale=(X=0.500000,Y=0.500000,Z=0.500000),SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=5,ZoneNumber=1)
+     Location=(X=16.000000,Y=350.339691,Z=-161.339676)
+     Rotation=(Pitch=16384,Yaw=-1024)
+     OldLocation=(X=234.000000,Y=226.339676,Z=60.339680)
+    Begin Brush Name=Model19
+       Begin PolyList
+          Begin Polygon Item=Sheet Texture=stex_3_4 Flags=4196618
+             Origin   +00063.999996,-00063.999992,-00000.000001
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             Pan      U=-32 V=32
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV -00001.000000,+00000.000000,-00000.000000
+             Vertex   +00032.000000,+00032.000000,+00000.000000
+             Vertex   +00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,-00032.000000,+00000.000000
+             Vertex   -00032.000000,+00032.000000,+00000.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model19'
+     PrePivot=(X=0.000002)
+     Name="Brush7"
+End Actor
+Begin Actor Class=VSPDisplayManager Name=VSPDisplayManager3
+     bDebug=True
+     wallGroup="group3"
+     posCol=1
+     scrTex=ScriptedTexture'VSPScrTexs.stex_3_2'
+     palFont=Font'VSPPaletteFonts.sp_palette_font_color_1'
+     palTex=Texture'VSPPaletteFonts.sp_palette_tex_color_1'
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="VSPDisplayManager"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-38.000015,Y=326.000000,Z=-64.000000)
+     OldLocation=(X=-15.908173,Y=261.733582,Z=-51.240845)
+     Name="VSPDisplayManager3"
+End Actor
+Begin Actor Class=VSPDisplayManager Name=VSPDisplayManager4
+     bDebug=True
+     wallGroup="group3"
+     posRow=1
+     scrTex=ScriptedTexture'VSPScrTexs.stex_3_3'
+     palFont=Font'VSPPaletteFonts.sp_palette_font_color_1'
+     palTex=Texture'VSPPaletteFonts.sp_palette_tex_color_1'
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="VSPDisplayManager"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-38.000015,Y=253.000000,Z=-123.000000)
+     OldLocation=(X=-15.908173,Y=261.733582,Z=-51.240845)
+     Name="VSPDisplayManager4"
+End Actor
+Begin Actor Class=VSPDisplayManager Name=VSPDisplayManager5
+     bDebug=True
+     wallGroup="group3"
+     posRow=1
+     posCol=1
+     scrTex=ScriptedTexture'VSPScrTexs.stex_3_4'
+     palFont=Font'VSPPaletteFonts.sp_palette_font_color_1'
+     palTex=Texture'VSPPaletteFonts.sp_palette_tex_color_1'
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="VSPDisplayManager"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-36.000015,Y=328.000000,Z=-123.000000)
+     OldLocation=(X=-13.908173,Y=336.733582,Z=-51.240845)
+     Name="VSPDisplayManager5"
+End Actor
+Begin Surface
+End Surface
+End Map

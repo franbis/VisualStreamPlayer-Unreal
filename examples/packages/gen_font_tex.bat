@@ -1,0 +1,1 @@
+py ..\..\streamer\gen_font_tex.py ..\media\indexed_color\palette_tex_color_1.bmp --out VSPPaletteFonts\Fonts\palette_font_color_1.bmp

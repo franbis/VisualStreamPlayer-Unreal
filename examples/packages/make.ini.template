@@ -1,0 +1,14 @@
+[Engine.Engine]
+EditorEngine=Editor.EditorEngine
+Language=int
+
+[Core.System]
+Paths=PACKAGES_PATH/*.u
+
+[Editor.EditorEngine]
+EditPackages=Core
+EditPackages=Engine
+EditPackages=VisualStreamPlayer
+EditPackages=VSPPaletteFonts
+EditPackages=VSPMutExample
+EditPackages=VSP469eFix

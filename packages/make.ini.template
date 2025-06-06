@@ -1,0 +1,12 @@
+[Engine.Engine]
+EditorEngine=Editor.EditorEngine
+Language=int
+
+[Core.System]
+Paths=PACKAGES_PATH/*.u
+
+[Editor.EditorEngine]
+EditPackages=Core
+EditPackages=Engine
+EditPackages=IpDrv
+EditPackages=VisualStreamPlayer
