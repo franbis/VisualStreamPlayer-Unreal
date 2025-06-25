@@ -6,7 +6,7 @@
 
 * Implement replication
 * Optimize the media player computation speed
-* Optimize the media player to receive more pixels per frame, thus allowing displays to have up to 63x63 pixels
+* Optimize the media player to receive more pixels per frame, allowing displays to have up to 63x63 pixels
 
 <br>
 
